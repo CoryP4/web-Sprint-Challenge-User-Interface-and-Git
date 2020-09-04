@@ -76,6 +76,23 @@ p {
 
 /*my work start*/
 
+body {
+    
+}
 
+header{
+    display: flex;
+    flex-direction: column;
+}
 
+/* middle */
 
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box1 {
+
+}
