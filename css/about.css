@@ -139,6 +139,16 @@ header{
     margin-bottom: 3%;
 }
 
+.middle .box a {
+    border:2px solid black;
+    width: 130px;
+    text-align: center;
+    padding: 3% 2%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 580;
+}
 /* bottom*/
 
 .bottom {
