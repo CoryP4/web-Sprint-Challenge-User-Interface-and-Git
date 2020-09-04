@@ -70,7 +70,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/*reset-end*/
 /*header start*/
 
 .header {
@@ -80,20 +80,23 @@ p {
 
 .headpls {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
+    margin-top:1%;
+    margin-bottom:3%;
 }
 
-.head-nav {
+.nav1 {
+    width: 100%;
     display: flex;
-    justify-content: center;
-}
-.head-nav a {
-    display: flex;
-    align-self: space-around;
+    justify-content: space-around;
+    align-self: flex-end;
+    padding-top:1.5%;
 }
 
 .nav1 a{
     text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
 
 /*top-content start*/
